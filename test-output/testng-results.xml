@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="160969" started-at="2018-04-05T09:48:51Z" finished-at="2018-04-05T09:51:32Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="160969" started-at="2018-04-05T09:48:51Z" finished-at="2018-04-05T09:51:32Z">
+      <class name="com.mycompany.maven.MavenProject.SaleOrder">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.mycompany.maven.MavenProject.SaleOrder@be2bc2]" name="beforeClass" is-config="true" duration-ms="8178" started-at="2018-04-05T15:18:51Z" finished-at="2018-04-05T15:18:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="generateOrder(com.gcs.frontend.collector.Order)[pri:0, instance:com.mycompany.maven.MavenProject.SaleOrder@be2bc2]" name="generateOrder" duration-ms="38564" started-at="2018-04-05T15:19:00Z" data-provider="testData" finished-at="2018-04-05T15:19:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Order [refNo=, orderChannel=Maven Manual, customerCode=CC10, shippingAddress=C-11, Mukerjee Nagar, Delhi - 110070, productId=VK01, quantity="1", isSameAddress=Y, paymentType=Cash, salesChannelDate=, shippingDate="11/4/2018", deliveryDate=, remark=]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateOrder -->
+        <test-method status="PASS" signature="generateOrder(com.gcs.frontend.collector.Order)[pri:0, instance:com.mycompany.maven.MavenProject.SaleOrder@be2bc2]" name="generateOrder" duration-ms="32722" started-at="2018-04-05T15:19:39Z" data-provider="testData" finished-at="2018-04-05T15:20:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Order [refNo=, orderChannel=FromCarpetTout, customerCode=JOD054, shippingAddress=East Patel Nagar Circuit House Road, Jodhpur - 342001, productId=SKU1001, quantity="2", isSameAddress=Y, paymentType=Bank Transfer, salesChannelDate=, shippingDate="20/4/2018", deliveryDate=, remark=]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateOrder -->
+        <test-method status="PASS" signature="generateOrder(com.gcs.frontend.collector.Order)[pri:0, instance:com.mycompany.maven.MavenProject.SaleOrder@be2bc2]" name="generateOrder" duration-ms="27012" started-at="2018-04-05T15:20:11Z" data-provider="testData" finished-at="2018-04-05T15:20:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Order [refNo=, orderChannel=Maven Manual, customerCode=CC10, shippingAddress=C-11, Mukerjee Nagar, Delhi - 110070, productId=VK01, quantity="1", isSameAddress=Y, paymentType=Cash, salesChannelDate=, shippingDate="11/4/2018", deliveryDate=, remark=]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateOrder -->
+        <test-method status="PASS" signature="generateOrder(com.gcs.frontend.collector.Order)[pri:0, instance:com.mycompany.maven.MavenProject.SaleOrder@be2bc2]" name="generateOrder" duration-ms="25826" started-at="2018-04-05T15:20:39Z" data-provider="testData" finished-at="2018-04-05T15:21:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Order [refNo=, orderChannel=FromCarpetTout, customerCode=JOD054, shippingAddress=East Patel Nagar Circuit House Road, Jodhpur - 342001, productId=SKU1001, quantity="2", isSameAddress=Y, paymentType=Bank Transfer, salesChannelDate=, shippingDate="20/4/2018", deliveryDate=, remark=]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateOrder -->
+        <test-method status="PASS" signature="generateOrder(com.gcs.frontend.collector.Order)[pri:0, instance:com.mycompany.maven.MavenProject.SaleOrder@be2bc2]" name="generateOrder" duration-ms="27473" started-at="2018-04-05T15:21:04Z" data-provider="testData" finished-at="2018-04-05T15:21:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Order [refNo=, orderChannel=Maven Manual, customerCode=CC10, shippingAddress=C-11, Mukerjee Nagar, Delhi - 110070, productId=VK01, quantity="1", isSameAddress=Y, paymentType=Cash, salesChannelDate=, shippingDate="11/4/2018", deliveryDate=, remark=]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateOrder -->
+        <test-method status="PASS" signature="browserCloset()[pri:0, instance:com.mycompany.maven.MavenProject.SaleOrder@be2bc2]" name="browserCloset" is-config="true" duration-ms="333" started-at="2018-04-05T15:21:32Z" finished-at="2018-04-05T15:21:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserCloset -->
+      </class> <!-- com.mycompany.maven.MavenProject.SaleOrder -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
